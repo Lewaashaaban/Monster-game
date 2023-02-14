@@ -1,0 +1,114 @@
+.heading {
+    background-color: rgb(136, 9, 9);
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.game {
+    margin: 50px auto;
+    width: 600px;
+    text-align: center;
+
+}
+
+.you,
+.monster,
+.battle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 7%;
+    border: 1px white;
+    /*divs*/
+    border-style: ridge;
+    box-sizing: border-box;
+    width: 600px;
+    box-shadow: 2px 2px 1px 1px gray;
+}
+
+.battle {
+    height: auto;
+}
+
+.game .monster p,
+.game .you p {
+    color: black;
+    font-size: x-large;
+}
+
+.buttons {
+    margin: 30px;
+}
+
+.buttons button,
+#newgame {
+    width: 140px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(104, 15, 107);
+    padding: 12px;
+    visibility: visible;
+
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+#monster-health,
+#your-health {
+    width: 580px;
+    height: 35px;
+    border: 1px solid black;
+    /*progressbar*/
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+
+}
+
+#Mcolor,
+#Ycolor {
+    width: 100%;
+    height: 100%;
+
+}
+
+#newgame {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+.battle #results {
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+#monsteee {
+    color: orange;
+
+}
+
+/*colors of the text inside the message*/
+#playeee {
+    color: purple;
+}

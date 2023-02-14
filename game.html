@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="heading">
+        <h1>Kill The Monster</h1>
+
+    </div>
+
+    <form class="game">
+
+        <div class="monster">
+            <p>Monster Health</p>
+
+            <progress id="monster-health" value="100" max="100"></progress>
+        </div>
+        </div>
+
+        <div class="you">
+            <p>Your Health</p>
+
+            <progress id="your-health" value="100" max="100"></progress>
+
+
+
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div>
+                <button id="attack">ATTACK</button>
+                <button id="Sattack">SPECIAL ATTACK</button>
+            </div>
+            <div>
+                <button id="heal">HEAL</button>
+                <button id="endgame">GIVE UP</button>
+            </div>
+        </div>
+
+        <div class="battle">
+            <p>Battle Log</p>
+            <div id="message"></div>
+            <button id="newgame" onclick="restart()">Start New game</button>
+            <div id="results"></div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
